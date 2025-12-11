@@ -1,0 +1,10 @@
+dataset: {
+    data_root: /home/wyt/AQA_data/workout_ori, # PATH TO YOUR original VIDEOS
+    video_dir: /home/wyt/AQA_data/frames, # PATH TO YOUR VIDEO FRAMES
+    yaml_file: ./swinbert_val.yaml,
+    train_datafile: train.pkl,
+    test_datafile: test.pkl,
+    max_seq_len: 256,
+    input_frame_size: [398, 224],
+    crop_frame_size: 224,
+  }
