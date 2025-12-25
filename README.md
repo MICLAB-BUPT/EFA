@@ -22,9 +22,10 @@
     <sup>1</sup>State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, China </span>
 </div>
  <!-- Assume this is Fig.1 from page1 -->
-
+</div>
 ### Abstract
-In real-world scenarios like fitness training and martial arts, evaluating if human actions conform to standard forms is essential for safety and effectiveness. Traditional video understanding focuses on what and where actions occur, but our work introduces the Action Form Assessment (AFA) task to assess how well actions are performed against objective standards. We present the CoT-AFA dataset, featuring diverse workout videos with Chain-of-Thought explanations that provide step-by-step reasoning, error analysis, and corrective solutions, enabling explainable feedback for skill improvement.
+<p align="justify"><i>In real-world scenarios like fitness training and martial arts, evaluating if human actions conform to standard forms is essential for safety and effectiveness. Traditional video understanding focuses on what and where actions occur, but our work introduces the Action Form Assessment (AFA) task to assess how well actions are performed against objective standards. We present the CoT-AFA dataset, featuring diverse workout videos with Chain-of-Thought explanations that provide step-by-step reasoning, error analysis, and corrective solutions, enabling explainable feedback for skill improvement.</i></p>
+
 
 ## Release
 - `2025-12-25` :rocket: Released the CoT-AFA dataset and EFA source code on GitHub.
