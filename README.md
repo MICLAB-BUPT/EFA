@@ -49,6 +49,7 @@ Our Explainable Fitness Assessor (EFA) framework achieves significant improvemen
   <img src="docs/resources/AQA_result.png" width="45%" />
   <img src="docs/resources/caption_result.png" width="45%" />
 </p>
+<img src="docs/resources/pred.png" width="45%" />
 These results highlight the effectiveness of multimodal fusion and Chain-of-Thought reasoning in AFA.
 
 ## Run EFA
