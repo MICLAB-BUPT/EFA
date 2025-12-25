@@ -1,5 +1,5 @@
 <div align="center" style="font-family: charter;">
-<h1><i>Explainable Action Form Assessment</i>:</br> by Exploiting Multimodal Chain-of-Thoughts Reasoning</h1>
+<h1><i>Explainable Action Form Assessment by Exploiting Multimodal Chain-of-Thoughts Reasoning</i></h1>
 <img src="docs/resources/pipline.png" width="100%"/>
 <br />
 <a href="https://arxiv.org/abs/2512.15153" target="_blank">
