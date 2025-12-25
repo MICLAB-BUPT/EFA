@@ -1,10 +1,6 @@
-
-
-
-
 <div align="center" style="font-family: charter;">
 <h1><i>Explainable Action Form Assessment</i>:</br> by Exploiting Multimodal Chain-of-Thoughts Reasoning</h1>
-<img src="docs/resources/pipline.png" width="50%"/>
+<img src="docs/resources/pipline.png" width="100%"/>
 <br />
 <a href="https://arxiv.org/abs/2512.15153" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2512.15153-red?logo=arxiv" height="20" />
@@ -16,11 +12,11 @@
     <img alt="Kaggle Dataset: CoT-AFA" src="https://img.shields.io/badge/Kaggle-CoT--AFA-20BEFF?logo=kaggle&logoColor=white" height="20" />
 </a>
 <div>
-    Mengshi Qi<sup></sup>, </span>
-    Yeteng Wu<sup></sup>, </span>
-    Wulian Yun<sup></sup>, </span>
-    Xianlin Zhang<sup></sup>, </span>
-    Huadong Ma<sup></sup> </span>
+<a href="https://jueduilingdu.github.io/" target="_blank">Mengshi Qi</a><sup>1</sup>,</span>
+<a href="[INSERT_LINK_IF_AVAILABLE]" target="_blank">Yeteng Wu</a><sup>1</sup>, </span>
+<a href="[INSERT_LINK_IF_AVAILABLE]" target="_blank">Wulian Yun</a><sup>1</sup>,</span>
+<a href="[INSERT_LINK_IF_AVAILABLE]" target="_blank">Xianlin Zhang</a><sup>1</sup>,</span>
+<a href="https://scholar.google.com/citations?user=A-vcjvUAAAAJ&hl=zh-CN" target="_blank">Huadong Ma</a><sup>1</sup></span>
 </div>
 <div>
     <sup>1</sup>State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, China </span>
