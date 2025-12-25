@@ -120,6 +120,9 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 -
 The model evaluates on COCO captioning metrics (BLEU, METEOR, ROUGE-L, CIDEr) and regression/classification metrics for quality assessment.
 
 Evaluation results are saved in the `output/` directory with detailed metrics.
+## Acknowledgement
+
+Our evaluation code is build upon [LAVENDER]([https://github.com/EvolvingLMMs-Lab/lmms-eval](https://github.com/microsoft/LAVENDER)). We acknowledge their team for their valuable contributions to the open-source community and for providing an excellent reference for video captioning evaluation.
 ## Citation
 If you find our paper, dataset, or code useful, please cite:
 ```
