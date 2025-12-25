@@ -47,9 +47,10 @@ Our Explainable Fitness Assessor (EFA) framework achieves significant improvemen
 - Explanation generation: +16.0% in CIDEr
 - Action classification: +2.7% in accuracy
 - Quality assessment: +2.1% in accuracy
-
-<img src="docs/resources/AQA_result.png" width="100%"/> <!-- Assume Fig.5 from page6 -->
-<img src="docs/resources/caption_result.png" width="100%"/>
+<p align="center">
+  <img src="docs/resources/AQA_result.png" width="45%" />
+  <img src="docs/resources/caption_result.png" width="45%" />
+</p>
 These results highlight the effectiveness of multimodal fusion and Chain-of-Thought reasoning in AFA.
 
 ## Run EFA
