@@ -51,7 +51,9 @@ Our Explainable Fitness Assessor (EFA) framework achieves significant improvemen
 <img src="docs/resources/architecture.png" width="100%"/> <!-- Assume Fig.5 from page6 -->
 
 These results highlight the effectiveness of multimodal fusion and Chain-of-Thought reasoning in AFA.
-## Requirements
+
+## Run EFA
+### Requirements
 
 - Python 3.8
 - PyTorch 2.4.1+cu124
@@ -64,8 +66,8 @@ These results highlight the effectiveness of multimodal fusion and Chain-of-Thou
 - DeepSpeed 0.17.6
 - And other dependencies listed in `requirements.txt`
 
-## Dataset Preparation
-### Dataset Download
+### Dataset Preparation
+#### Dataset Download
 
 The model is trained and evaluated on the GYM88 dataset, which contains fitness exercise videos with quality annotations.
 1. **Download the CoT-AFA dataset**: The dataset can be obtained from https://www.kaggle.com/datasets/dd34dc6f49a960a31e03af896f85be526a72f8c9a684defd715c75d62bedbdc2. 
@@ -82,9 +84,9 @@ The model is trained and evaluated on the GYM88 dataset, which contains fitness 
        ├── 00_01/     # Frames for video 2
        └── ...
    ```
-## Configuration
+### Configuration
 
-### Modifying Dataset Paths
+#### Modifying Dataset Paths
 
 Edit the configuration file `_args/AFA.yaml` to update the dataset paths:
 
@@ -100,7 +102,7 @@ dataset: {
     crop_frame_size: 224,
   }
 ```
-## Training
+### Training
 
 To train the model:
 
@@ -113,7 +115,7 @@ For multi-GPU training:
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 --master_port=5567 main_caption.py --config _args/args_AFA.json --path_output output
 ```
 
-## Evaluation
+### Evaluation
 
 The model evaluates on COCO captioning metrics (BLEU, METEOR, ROUGE-L, CIDEr) and regression/classification metrics for quality assessment.
 
